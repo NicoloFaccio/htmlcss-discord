@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: #3161E0;
+   background-image: url("../img/jumbo.png");
 }
 
 
@@ -19,11 +19,13 @@ header {
 
 .menu-flex {
     display: flex;
+    gap: 20px;
 }
 
 .buttons {
     list-style: none;
     margin-top: 10px;
+    color: white;
 }
 
 a {
@@ -32,19 +34,16 @@ a {
 
 .login {
     background-color: white;
-    border-radius: 5px;
-}
-
-.flex-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
+    border-radius: 30px;
+    padding: 10px;
+    color: black;
 }
 
 #title {
-    width: 400px;
-    height: 100px;
-    background-color: lime;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  
 }
 
 section div {
