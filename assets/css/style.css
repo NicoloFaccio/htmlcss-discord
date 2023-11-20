@@ -92,6 +92,9 @@ section.color-box:nth-child(even) {
     background-color: #F6F6F6;
 }
 
+section.color-box:nth-child(even) figure {
+    order: 1;
+}
 
 .grey-flex2 {
     background-color: #F6F6F6;
@@ -100,11 +103,6 @@ section.color-box:nth-child(even) {
     align-items: center;
 } 
 
-.download {
-    height: 100px;
-    width: 500px;
-    margin: 20px;
-}
 
 footer {
     height: 500px;
