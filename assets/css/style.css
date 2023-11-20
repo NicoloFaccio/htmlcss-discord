@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    font-family: 'Yantramanav', sans-serif;
 }
 
 header {
    background-image: url("../img/jumbo.png");
+   background-repeat: no-repeat;
+   background-size: cover;
 }
-
 
 .navigation-flex {
     display: flex;
@@ -19,7 +20,7 @@ header {
 
 .menu-flex {
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 
 .buttons {
@@ -41,11 +42,25 @@ a {
 
 #title {
   margin: 0 auto;
-  width: 80%;
+  width: 50%;
   text-align: center;
-  
+  padding-block: 80px;
+  color: white;
+
 }
 
+div h2 {
+    margin: 30px;
+    font-size: 60px;
+}
+
+.login-2 {
+    background-color: #23272A;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    margin-top: 30px;
+}
 section div {
     width: 150px;
     height: 150px;
