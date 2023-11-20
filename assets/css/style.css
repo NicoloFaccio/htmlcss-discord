@@ -2,22 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 header {
-    height: 300px;
     background-color: #3161E0;
 }
 
-header nav {
-    height: 50px;
-    background-color: aquamarine;
-
-}
 
 .navigation-flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
 } 
 
 .menu-flex {
@@ -25,11 +22,17 @@ header nav {
 }
 
 .buttons {
-    width: 100px;
-    height: 20px;
     list-style: none;
-    background-color: yellow;
     margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login {
+    background-color: white;
+    border-radius: 5px;
 }
 
 .flex-container {
