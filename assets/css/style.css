@@ -1,0 +1,117 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 300px;
+    background-color: #3161E0;
+}
+
+header nav {
+    height: 50px;
+    background-color: aquamarine;
+
+}
+
+.navigation-flex {
+    display: flex;
+    justify-content: space-around;
+} 
+
+.menu-flex {
+    display: flex;
+}
+
+.buttons {
+    width: 100px;
+    height: 20px;
+    list-style: none;
+    background-color: yellow;
+    margin-top: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#title {
+    width: 400px;
+    height: 100px;
+    background-color: lime;
+}
+
+section div {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+.white-flex {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.grey-flex {
+    height: 200px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+} 
+
+.grey-flex2 {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.download {
+    height: 100px;
+    width: 500px;
+    margin: 20px;
+}
+
+footer {
+    height: 500px;
+    background-color: #23272A; 
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#information {
+    height: 400px;
+    width: 500px;
+    background-color: darkgreen;
+    margin-top: 50px;
+}
+
+#line {
+    width: 500px;
+    margin-block: 20px;
+}
+
+.last-part {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.buttons-2 {
+    width: 100px;
+    height: 20px; 
+    background-color: yellow;
+}
