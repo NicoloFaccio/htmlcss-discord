@@ -63,7 +63,7 @@ div h2 {
     margin-top: 30px;
 }
 
-main {
+main section .container {
     margin: 0 auto;
     width: 80%;
 }
@@ -78,20 +78,20 @@ section .image .text{
     flex-basis: 30%;
 }
 
+section div p {
+    margin-block: 30px;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.grey-flex {
-    height: 200px;
+section.color-box:nth-child(even) {
     background-color: #F6F6F6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-} 
+}
+
 
 .grey-flex2 {
     background-color: #F6F6F6;
