@@ -96,13 +96,24 @@ section.color-box:nth-child(even) figure {
     order: 1;
 }
 
-.grey-flex2 {
-    background-color: #F6F6F6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} 
 
+section.color-box:last-child {
+    text-align: center;
+}
+
+section .part , h3 {
+    margin: 0 auto;
+    width: 80%;
+    margin-block: 30px; 
+}
+
+.download {
+    background-color: #768EE5;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 30px;
+}
 
 footer {
     height: 500px;
