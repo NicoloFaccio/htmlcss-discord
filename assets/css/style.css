@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
     font-family: 'Yantramanav', sans-serif;
-    border: 1px solid red;
 }
 
 header {
@@ -32,6 +34,7 @@ header {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .login {
@@ -104,7 +107,7 @@ section.color-box:last-child {
 section .part , h3 {
     margin: 0 auto;
     width: 80%;
-    margin-block: 30px; 
+    padding-block: 30px; 
 }
 
 #stars {
@@ -126,7 +129,7 @@ footer {
     background-color: #23272A; 
 }
 
-footer div {
+footer div, hr {
     margin: 0 auto;
     width: 80%;
     color: white;
@@ -134,13 +137,22 @@ footer div {
 
 .information {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around; 
+    padding-top: 30px;
 }
 
 footer ul li {
     list-style: none;
     color: white;
     text-transform: capitalize;
+}
+
+.contacts {
+    flex-grow: 2;
+}
+
+.more {
+    flex-grow: 1;
 }
 
 footer div h4 {
@@ -152,7 +164,7 @@ footer div h4 {
     padding-right: 3px;
 }
 
-ul li:first-child {
+footer div.more ul li:first-child {
     color: #768EE3;
 }
 
@@ -161,3 +173,23 @@ ul li:first-child {
     gap: 10px;
     color: white;
 }
+
+hr {
+    background-color: #3B4661;
+    margin-block: 30px;
+}
+
+.last-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div > a:last-child {
+    background-color: #768EE5;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 50px;
+    opacity: 60%;
+}
+
