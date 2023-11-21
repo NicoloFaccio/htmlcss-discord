@@ -29,7 +29,7 @@ header {
 .buttons {
     list-style: none;
     margin-top: 10px;
-    color: white;
+    color: white;  
 }
 
 a {
@@ -42,6 +42,7 @@ a {
     border-radius: 30px;
     padding: 10px;
     color: black;
+    border: none;
 }
 
 #title {
@@ -64,6 +65,7 @@ div h2 {
     padding: 10px;
     color: white;
     margin-top: 30px;
+    border: none;
 }
 
 main section .container {
@@ -123,6 +125,7 @@ section .part , h3 {
     color: white;
     margin-bottom: 30px;
     opacity: 60%;
+    border: none;
 }
 
 footer {
